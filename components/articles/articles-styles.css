@@ -15,6 +15,11 @@
 .menu ul {
   margin-block-start: 0rem;
   padding-inline-start: 0px;
+  cursor: pointer;
+}
+
+.menu ul:hover {
+  color: lightgray;
 }
 
 .menu li {
@@ -22,14 +27,18 @@
   padding: 20px 70px 20px 20px;
 }
 
+.menu li:hover {
+  color: lightgray;
+}
+
 .menu a {
   text-align: left;
   text-decoration: none;
+  color: grey;
 }
 
 .overview_section {
-  display: flex;
-  float: left;
+  display: block;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   width: 1100px;
   height: 750px;
@@ -38,5 +47,9 @@
 }
 
 .overview_section h1 {
+  margin-left: 20px;
+}
+
+.article_info {
   margin-left: 20px;
 }
