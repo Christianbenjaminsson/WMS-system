@@ -16,19 +16,12 @@
   margin-block-start: 0rem;
   padding-inline-start: 0px;
   cursor: pointer;
-}
-
-.menu ul:hover {
-  color: lightgray;
+  margin-top: 20px;
 }
 
 .menu li {
   list-style: none;
-  padding: 20px 70px 20px 20px;
-}
-
-.menu li:hover {
-  color: lightgray;
+  padding: 10px 100px 10px 20px;
 }
 
 .menu a {
